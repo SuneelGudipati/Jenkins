@@ -61,6 +61,9 @@ java -version
 ```bash
 echo "export JAVA_HOME=$(dirname $(dirname $(readlink $(readlink $(which java)))))" | sudo tee -a /etc/profile
 echo "export PATH=\$PATH:\$JAVA_HOME/bin" | sudo tee -a /etc/profile
+```
+### Restart the current shell
+```bash
 source /etc/profile
 ```
 
