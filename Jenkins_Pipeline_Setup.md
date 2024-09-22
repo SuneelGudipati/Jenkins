@@ -62,8 +62,10 @@ This guide provides a detailed step-by-step process for setting up a Jenkins pip
    - Check the installed Java version to confirm the installation:
      ```bash
      java -version
+   - Check the installed Java version to confirm the installation:
+     ```bash
+     find /usr -name java
      ```
-
 ---
 
 #### 4. **Configure Java Environment Variables**
