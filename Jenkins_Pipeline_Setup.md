@@ -49,7 +49,11 @@ This guide provides a detailed step-by-step process for setting up a Jenkins pip
 
 #### 3. **Install Java 17 and Fontconfig**
 1. **Install Java 17 and Fontconfig:**
-   - Jenkins requires Java to run, and `fontconfig` is required for some plugins and dependencies:
+   - Jenkins requires Java to run, 
+     ```bash
+     sudo yum install java-17-amazon-corretto -y
+     ```
+     (or `fontconfig` is required for some plugins and dependencies:)
      ```bash
      sudo yum install fontconfig java-17-openjdk -y
      ```
